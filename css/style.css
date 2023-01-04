@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    margin: 15px;
+}
+
+p {
+    font-size: 2em;
+    color: blue;
+}
+
+#story {
+    font-size: 1em;
+    color: orange;
+}
+
+.label {
+    width: 150px;
+}
+
+input[type=text] {
+    height: 25px;
+}
+
+button {
+    color: white;
+    background-color: maroon;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 20px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Challenge: Mad Libs</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="row">
+        <h1>Mad Libs</h1>
+    </div>
+
+    <form id="libform">
+        <div class="row">
+            <div class="label"><label for="noun">Noun:</label></div>
+            <div class="input"><input type="text" id="noun"></div><br>
+        </div>
+        <div class="row">
+            <div class="label"><label for="adjective">Adjective:</label></div>
+            <div class="input"><input type="text" id="adjective"></div><br>
+        </div>
+        <div class="row">
+            <div class="label"><label for="person">Someone's Name:</label></div>
+            <div class="input"><input type="text" id="person"></div><br>
+        </div>
+        <div class="row">
+            <div class="label"><label for="verb">Verb:</label></div>
+            <div class="input"><input type="text" id="verb"></div><br>
+        </div>
+        <div class="row">
+            <div class="label"><label for="place">A place:</label></div>
+            <div class="input"><input type="text" id="place"></div><br>
+        </div>
+        <div class="row">
+            <button id="lib-button" type="submit">Lib it!</button>
+            <button id="shuffle-button">Shuffle!</button>
+        </div>
+    </form>
+
+    <div class="row">
+        <p>Generated story:
+            <span id="story"></span>
+        </p>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
